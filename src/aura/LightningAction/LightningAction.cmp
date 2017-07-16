@@ -1,6 +1,7 @@
 <aura:component >
     <aura:attribute name="aw" type="Object" />
     <aura:attribute name="actions" type="List" />
+    <aura:attribute name="frequency" type="List" />
     <aura:attribute name="childObjects" type="Object[]" />
     <aura:attribute name="filterWrapper" type="Object[]" />
     <aura:attribute name="relFilterWrapper" type="Object[]" />
@@ -30,7 +31,7 @@
             <tr>
                 <th >Frequency</th>
                 <div class="divider"/>
-                <td><ui:inputSelect class="field" options="{!v.aw.frequency}" value="{!v.aw.selectedFrequency}"/></td>
+                <td><ui:inputSelect class="slds-text-title--caps" options="{!v.frequency}" value="{!v.aw.selectedFrequency}"/></td>
             </tr>
         </thead>
         <thead>
