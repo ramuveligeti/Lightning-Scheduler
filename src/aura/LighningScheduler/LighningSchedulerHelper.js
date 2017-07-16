@@ -35,9 +35,14 @@
                 var refOptions = [];
                 refOptions.push({ label: '--None--', value: '' });
                 for (var i = 0; i < ret.length; i++) {
-                    options.push({ label: ret[i][0], value: ret[i][1] });
-                    if(ret[i][1].split('==')[1] == 'REFERENCE'){
-                        refOptions.push({ label: ret[i][1].split('==')[0], value: ret[i][1].split('==')[0] });
+                    var apiDataTypeWithObjName = ret[i][1];
+                    var apiWithDataType = apiDataTypeWithObjName.split('~:~')[0];
+                    var fieldLabel = ret[i][0];
+                    options.push({ label: fieldLabel, value: apiWithDataType });
+
+                    if(apiWithDataType.split('==')[1] == 'REFERENCE'){
+                        var apiWithObjName = apiWithDataType.split('==')[0]+'=='+apiDataTypeWithObjName.split('~:~')[1];
+                        refOptions.push({ label: fieldLabel, value: apiWithObjName });
                     }
                 }
                 
@@ -341,8 +346,9 @@
             wrap[index] = act;
             component.set("v.actionWrapper",wrap);
             var action = component.get("c.getRefObjFields");
+            var obj = act['selectedRefPar'];
             action.setParams({"so":component.get("v.selectedObj"),
-                              "fldName":act['selectedRefPar']
+                              "fldName":obj.split('==')[0]
                              });
             action.setCallback(this, function(data) {
                 var ret = data.getReturnValue();
@@ -351,6 +357,7 @@
                     options.push({ label: ret[i][0], value: ret[i][1] });
                 }
                 component.set("v.refObjFields", options);
+                component.set("v.selectedActObj",obj.split('==')[1]);
                 this.createWrapper(component,event);
             });
             $A.enqueueAction(action);

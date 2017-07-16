@@ -9,11 +9,25 @@ public class AdhocLightningScheduler{
     
     @auraEnabled
     public static List<SelectOption> getSobjectNames(){
+        List<String> oNames = new List<String>();
         List<SelectOption> objNames = new List<SelectOption>();
+        Map<String,String> oMap = new Map<String,String>();
         objNames.add(new SelectOption('','--None--'));
         for(Schema.SObjectType o : Schema.getGlobalDescribe().values()){
             Schema.DescribeSObjectResult objResult = o.getDescribe();
-            objNames.add(new SelectOption(objResult.getName(),objResult.getLabel()));
+            String label = objResult.getLabel();
+            String name = objResult.getName();
+            if (!objResult.isCustomSetting() && objResult.getRecordTypeInfos().size() > 0 && objResult.isCreateable() &&
+                !name.containsignorecase('history') && !name.containsignorecase('tag') && !name.containsignorecase('share') && 
+                !name.containsignorecase('feed')) {
+                    oNames.add(label);
+                    oMap.put(label,name);
+            }
+        }
+        oNames.sort();
+        system.debug('oNames=='+oNames);
+        for(String s: oNames){
+            objNames.add(new SelectOption(oMap.get(s),s));
         }
         return objNames;
     }
@@ -68,11 +82,14 @@ public class AdhocLightningScheduler{
             l.add(String.valueOf(s1.getDescribe().getName()));
             
             String dataType = String.valueOf(fieldMap.get(field).getDescribe().getType());
-            String objName = String.valueOf(fieldMap.get(field).getDescribe().getReferenceTo()[0].getDescribe().getName());
+            String objName = '';
             //get API Name +'=='+ data type+'~:~'+ Reference field object Name
-            if(dataType == 'REFERENCE'){l.add(field+'=='+dataType+'~:~'+objName);}
+            if(dataType == 'REFERENCE'){
+                objName = String.valueOf(fieldMap.get(field).getDescribe().getReferenceTo()[0].getDescribe().getName());
+                l.add(field+'=='+dataType+'~:~'+objName);
+            }
             //get API Name +'=='+ data type
-            else l.add(field+'=='+dataType);
+            else l.add(field+'=='+dataType+'~:~'+objName);
             options.add(l);
             //objFields.add(new SelectOption(field+'=='+String.valueOf(fieldMap.get(field).getDescribe().getType()),String.valueOf(s1.getDescribe().getName())));
         }

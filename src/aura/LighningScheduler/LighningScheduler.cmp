@@ -64,14 +64,22 @@
                 </div>
             </header>
             <div style="margin-right:50%">
+                <aura:if isTrue="{!v.actionWrapper.length >0}">
+                    <lightning:button class="slds-button slds-button_brand" label="Save" onclick="{!c.addAction}"/>
+                </aura:if>
                 <lightning:button class="slds-button slds-button_brand" label="Add Action" onclick="{!c.addAction}"/>
+                <aura:if isTrue="{!v.actionWrapper.length >0}">
+                    <lightning:button class="slds-button slds-button_brand" label="Cancel" onclick="{!c.addAction}"/>
+                </aura:if>
             </div>
         </div>
         <div class="slds-card__body slds-card__body_inner" style="margin-top:-20px">
             <table style="margin-left:10%">
-                <aura:iteration items="{!v.actionWrapper}" var="aw">
-                    <c:LightningAction aw="{!aw}" actions="{!aw.action}" childObjects="{!v.childObjects}" relFilterWrapper="{!aw.relFilterWrapper}" filterWrapper="{!aw.filterWrapper}" refObjFields="{!v.refObjFields}" refFields="{!v.refFields}" relFields="{!v.relFields}" fields="{!v.fields}"/>
-                </aura:iteration>
+                <aura:if isTrue="{!v.actionWrapper.length >0}">
+                    <aura:iteration items="{!v.actionWrapper}" var="aw">
+                        <c:LightningAction aw="{!aw}" actions="{!aw.action}" childObjects="{!v.childObjects}" relFilterWrapper="{!aw.relFilterWrapper}" filterWrapper="{!aw.filterWrapper}" refObjFields="{!v.refObjFields}" refFields="{!v.refFields}" relFields="{!v.relFields}" fields="{!v.fields}"/>
+                    </aura:iteration>
+                </aura:if>
             </table>
         </div>
     </article>  
