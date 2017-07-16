@@ -1,0 +1,12 @@
+.THIS {
+}
+
+.THIS .hidden {
+    display:none;
+}
+
+.THIS .accountName-hoverContainer {
+    position: absolute;
+    top: -37px;
+    left: 17px;
+}

@@ -1,0 +1,7 @@
+<aura:component >
+	<aura:attribute name="Id" type="String" required="true" />
+    <aura:attribute name="Name" type="String" required="true" />
+    <a onclick="{!c.myAction}" style="width:100%;"> 
+        {!v.Name}
+    </a>
+</aura:component>

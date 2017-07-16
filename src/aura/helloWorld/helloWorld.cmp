@@ -1,0 +1,5 @@
+<aura:component >
+ <div> Hello World !!!! </div>
+  <aura:registerEvent name="myevent" type="c:myEvent" />
+  <ui:button label="fireEvent" press="{!c.fireevent}" />
+</aura:component>

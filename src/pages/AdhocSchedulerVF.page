@@ -1,0 +1,79 @@
+<apex:page controller="AdhocScheduler">
+    <c:LoadingComponent />
+    <apex:form id="newForm">
+        <apex:pageMessages id="ShowMsg"></apex:pageMessages>
+        <apex:actionFunction action="{!getObjFields}" reRender="newForm,FilterPage" name="fetchFields" status="loadStatus"/>
+    	<apex:pageBlock title="Select Object" id="objectBlock">
+            <apex:pageBlockButtons location="top">
+                <apex:commandButton action="{!save}" value="Save"/>
+            </apex:pageBlockButtons>
+        	<apex:pageBlockSection id="ObjectSection">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Object Name</apex:outputLabel>
+                    <apex:selectList value="{!selectedObj}" size="1" onchange="fetchFields();">
+                        <apex:selectOptions value="{!objNames}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        <apex:actionFunction action="{!changeValueDataType}" name="changeValueDataTypeFunction" rerender="FilterPage" status="loadStatus">
+            <apex:param name="firstParam" assignTo="{!sequence}" value="" />
+        </apex:actionFunction>
+        <apex:pageBlock title="Define Filters" rendered="{!showFields}" id="FilterPage">
+        	<apex:pageBlockTable value="{!filterWrapperList}" var="fl">
+                <apex:column value="{!fl.sequence}." rendered="{!applyFilterLogic}" width="1%"/>
+                <apex:column headerValue="Filter" width="10%">
+                    <apex:selectList value="{!fl.filterOption}" multiselect="false" size="1" onchange="changeValueDataTypeFunction('{!fl.sequence}');">
+                        <apex:selectOptions value="{!objFields}"/>
+                    </apex:selectList>
+                </apex:column>
+                <apex:column headerValue="Operator" width="10%">
+                    <apex:selectlist id="filterOperator" value="{!fl.filterOperator}" multiselect="false" size="1">
+                        <apex:selectoptions value="{!fl.operators}" />
+                    </apex:selectlist>
+                </apex:column>
+                <apex:column headerValue="Value" width="10%">
+                    <!--apex:input type="date" value="{!fl.dateValue}" rendered="{!fl.dataType=='Date'}"/>
+                    <apex:input type="datetime-local" value="{!fl.datetimeValue}" rendered="{!fl.dataType=='Datetime'}"/-->
+                    <apex:inputField id="filterDate" value="{!fl.sch.Schedule_Datetime__c}" rendered="{!fl.dataType=='Date'}"/>
+                    <apex:inputField value="{!fl.sch.Schedule_Date__c}" rendered="{!fl.dataType=='Datetime'}"/>
+                    <apex:inputText value="{!fl.value}" rendered="{!fl.dataType=='String'}"/>
+                    <apex:inputText value="{!fl.lookupValue}" rendered="{!fl.dataType=='Lookup'}"/>
+                    <apex:inputCheckbox value="{!fl.value}" rendered="{!fl.dataType=='Boolean'}"/>
+                    <apex:selectList value="{!fl.value}" multiselect="false" size="1" rendered="{!fl.dataType=='Picklist'}">
+                        <apex:selectOptions value="{!fl.picklistOptions}"/>
+                    </apex:selectList>
+                </apex:column> 
+                <apex:column value="{!fl.andOperator}" rendered="{! !applyFilterLogic}" width="5%"/>
+                <apex:column width="5%">
+                    <apex:commandButton action="{!removeSelected}" reRender="FilterPage" value="Remove" status="loadStatus">
+                        <apex:param name="removeId" value="{!fl.uniqueId}" assignTo="{!removeId}" />
+                    </apex:commandButton>
+                </apex:column>
+                <apex:column width="5%">
+                    <apex:commandButton action="{!addFilter}" rendered="{!filterWrapperList.size==fl.sequence}" value="Add" reRender="FilterPage,ShowMsg" status="loadStatus"/>
+                </apex:column>
+            </apex:pageBlockTable>
+            <br/>
+            <apex:outputPanel >
+                <apex:commandLink value="Add Filter Logic" action="{!applyFilterLogicMethod}" rendered="{! !applyFilterLogic}" reRender="newForm" status="loadStatus"/>
+                <apex:commandLink value="Clear Filter Logic" action="{!clearFilterLogicMethod}" rendered="{!applyFilterLogic}" reRender="newForm" status="loadStatus"/>
+                <br/>
+                <br/>
+                <apex:outputPanel rendered="{!applyFilterLogic}">
+                    <apex:outputLabel value="Filter Logic:"/>
+                    <br/>
+                    <apex:inputText value="{!filterLogic}" size="75"/>
+                </apex:outputPanel>
+            </apex:outputPanel>
+        </apex:pageBlock>
+        <apex:pageBlock title="Actions" rendered="{!showFields}" id="actionsBlock">
+            <apex:pageBlockSection >
+                <apex:selectList value="{!selectedAction}" multiselect="false" size="1">
+                    <apex:selectOptions value="{!actions}"/>
+                </apex:selectList>
+            	<apex:inputField value="{!sch.Schedule_Datetime__c}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,31 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="map" type="map"/>
+    <aura:attribute name="key" type="string"/>
+    <aura:attribute name="valueList" type="List"/>
+    <table class="slds-table slds-table--bordered slds-table--cell-buffer">
+        <thead>
+            <tr class="slds-text-title--caps">
+                <th scope="col">
+                    <div class="slds-truncate">{!v.key}</div>
+                </th>
+            </tr>
+        </thead>
+            <aura:iteration items="{!v.valueList}" var="value" >
+        <tbody>
+                <tr>
+                    <th scope="row">
+                        <div class="slds-truncate" >&nbsp;&nbsp;&nbsp;&nbsp;
+                            <c:QuickLaunchAction value="{!value.Label__c}" Url="{!value.URL__c}" type="{!value.Page_Type__c}"/>
+                        </div>
+                    </th>
+                    <td>
+                        <div class="slds-truncate">
+                            {!value.Help_Text__c}
+                        </div>
+                    </td>
+                </tr>
+        </tbody>
+            </aura:iteration>
+    </table>
+</aura:component>

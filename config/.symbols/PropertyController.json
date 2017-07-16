@@ -1,0 +1,218 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000FEIDDAA5",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000FEIDDAA5",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "findAll",
+            "parameters": [
+                {
+                    "name": "searchKey",
+                    "type": "String"
+                },
+                {
+                    "name": "minPrice",
+                    "type": "Decimal"
+                },
+                {
+                    "name": "maxPrice",
+                    "type": "Decimal"
+                },
+                {
+                    "name": "pageSize",
+                    "type": "Decimal"
+                },
+                {
+                    "name": "pageNumber",
+                    "type": "Decimal"
+                }
+            ],
+            "references": [],
+            "returnType": "PropertyPagedResult",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 25
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "findById",
+            "parameters": [
+                {
+                    "name": "propertyId",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "Property__c",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 33,
+                "line": 32
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getAvailableProperties",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "PropertyController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "global",
+            "with sharing"
+        ],
+        "name": "PropertyController",
+        "references": [],
+        "type": "PropertyController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "searchKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "minPrice",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 91,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "maxPrice",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 109,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "pageSize",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 127,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "pageNumber",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "pSize",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "key",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "offset",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "PropertyPagedResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "propertyId",
+            "references": [],
+            "type": "Id"
+        }
+    ]
+}

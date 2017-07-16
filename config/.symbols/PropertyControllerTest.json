@@ -1,0 +1,196 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000FEIDEAA5",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000FEIDEAA5",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 4
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testFindAll",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 17
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testFindById",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 30
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "getAvailableProperties",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "PropertyControllerTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 2
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "PropertyControllerTest",
+        "references": [],
+        "type": "PropertyControllerTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "success",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "p",
+            "references": [],
+            "type": "Property__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "PropertyPagedResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "success",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "p",
+            "references": [],
+            "type": "Property__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "property",
+            "references": [],
+            "type": "Property__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 31
+            },
+            "modifiers": [],
+            "name": "success",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "p",
+            "references": [],
+            "type": "Property__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+<aura:component >
+    <aura:attribute name="value" type="string"/>
+    <aura:attribute name="Url" type="string"/>
+    <aura:attribute name="type" type="string"/>
+    
+    <a href="javascript:void(0);" onclick="{!c.launchAction}">{!v.value}</a>
+    
+</aura:component>

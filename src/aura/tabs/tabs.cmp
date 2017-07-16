@@ -1,0 +1,52 @@
+<aura:component controller="RecentlyViewedRecords" implements="flexipage:availableForAllPageTypes">
+    <ltng:require styles="{!$Resource.SLDS212 + '/assets/styles/salesforce-lightning-design-system.css'}"/>
+    
+    <!--lightning:tabset >
+        <lightning:tab label="Buttons">
+            <c:buttons />
+        </lightning:tab>
+        <lightning:tab label="Input">
+            <c:inputs />
+        </lightning:tab>
+        <lightning:tab label="Output">
+            <c:outputs />
+        </lightning:tab>
+    </lightning:tabset-->
+    <aura:handler name="init" action="{!c.myAction}" value="{!this}" />
+    <aura:attribute name="records" type="List" />
+    <ul>
+        <table class="slds-table slds-table--bordered slds-table--striped">
+            <thead>
+                <tr class="slds-text-title--caps">
+                    <th scope="col">
+                        <div class="slds-truncate" title="Recently Viewed">Recently Viewed</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <aura:iteration items="{!v.records}" var="rec">
+                    <tr>
+                        <td>
+                            <div class="slds-truncate">
+                                <!--c:redirectToUrl Id="{!rec.Id}" Name="{!rec.Name}"/-->
+                                <!--a href="{!rec.Id}"> 
+                                    {!rec.Name}
+                                </a-->
+                                <aura:if isTrue="{!rec.isIconLightning}" else="">
+                                    <lightning:icon iconName="{!rec.iconUrl}" size="x-small" />
+                                    <aura:set attribute="else">
+                                        <img id="icon-classic" src="{!rec.iconUrl}"></img>
+                                    </aura:set>
+                                </aura:if>
+                                &nbsp;
+                                <a onclick="{!c.gotoURL}" data-id='{!rec.rv.Id}' style="width:100%;"> 
+                                     {!rec.rv.Name}
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </aura:iteration>
+            </tbody>
+        </table>
+    </ul> 
+</aura:component>

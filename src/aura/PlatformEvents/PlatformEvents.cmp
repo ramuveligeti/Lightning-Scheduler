@@ -1,0 +1,3 @@
+<aura:component controller="PlatformEvents" implements="flexipage:availableForAllPageTypes">
+	<aura:handler name="init" action="{!c.myAction}" value="{!this}" />
+</aura:component>

@@ -1,0 +1,35 @@
+<apex:component >
+    <style>
+        .overlay {
+            height: 100%;
+            left: 0;
+            position: fixed;
+            top: 0;
+            opacity: 0.3;
+            -moz-opacity: 0.3;
+            width: 100%;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+            filter: alpha(opacity=30);
+            background: #000;
+            -khtml-opacity: 0.3;
+            z-index: 1000;
+        }
+        .loader {
+            background: url('/img/loading32.gif') scroll no-repeat 0 0;
+            width: 32px;
+            height: 32px;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            margin-top: -50px;
+            margin-left: -100px;
+        	z-index: 999;
+        }
+    </style>
+    <apex:actionStatus id="loadStatus" >
+        <apex:facet name="start" >
+            <div class="loadingBox overlay"> </div>
+            <div id="load_scrl" class="loadingBox loader"> </div>
+        </apex:facet>
+    </apex:actionStatus>
+</apex:component>

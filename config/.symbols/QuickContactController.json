@@ -1,0 +1,109 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000EX9TOAA1",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000EX9TOAA1",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getAccount",
+            "parameters": [
+                {
+                    "name": "accountId",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "Account",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 10
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "saveContactWithAccount",
+            "parameters": [
+                {
+                    "name": "contact",
+                    "type": "Contact"
+                },
+                {
+                    "name": "accountId",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "Contact",
+            "type": null
+        }
+    ],
+    "name": "QuickContactController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "QuickContactController",
+        "references": [],
+        "type": "QuickContactController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "contact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        }
+    ]
+}

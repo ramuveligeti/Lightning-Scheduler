@@ -1,0 +1,1004 @@
+39.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+02:04:00.0 (775883)|USER_INFO|[EXTERNAL]|00528000001JBjQ|ramu.veligeti@yahoo.co.in|Pacific Standard Time|GMT-07:00
+02:04:00.0 (813023)|EXECUTION_STARTED
+02:04:00.0 (819518)|CODE_UNIT_STARTED|[EXTERNAL]|06628000008N9Wm|VF: /apex/AdhocSchedulerVF
+02:04:00.0 (6066734)|VF_DESERIALIZE_VIEWSTATE_BEGIN|06628000008N9Wm
+02:04:00.0 (17518990)|HEAP_ALLOCATE|[72]|Bytes:3
+02:04:00.0 (17562412)|HEAP_ALLOCATE|[77]|Bytes:152
+02:04:00.0 (17579153)|HEAP_ALLOCATE|[342]|Bytes:408
+02:04:00.0 (17597993)|HEAP_ALLOCATE|[355]|Bytes:408
+02:04:00.0 (17615829)|HEAP_ALLOCATE|[467]|Bytes:48
+02:04:00.0 (17644511)|HEAP_ALLOCATE|[139]|Bytes:6
+02:04:00.0 (17757380)|HEAP_ALLOCATE|[50]|Bytes:5
+02:04:00.0 (17780308)|HEAP_ALLOCATE|[56]|Bytes:5
+02:04:00.0 (17789558)|HEAP_ALLOCATE|[64]|Bytes:7
+02:04:00.0 (35013081)|VF_DESERIALIZE_VIEWSTATE_END
+02:04:00.39 (39422932)|SYSTEM_MODE_ENTER|true
+02:04:00.39 (39504336)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:38
+02:04:00.39 (39517709)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+02:04:00.39 (39529206)|SYSTEM_METHOD_ENTRY|[1]|PageMessagesComponentController.PageMessagesComponentController()
+02:04:00.39 (39534877)|STATEMENT_EXECUTE|[1]
+02:04:00.40 (40484987)|SYSTEM_MODE_ENTER|true
+02:04:00.40 (40539361)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+02:04:00.40 (40547041)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+02:04:00.40 (40590882)|VARIABLE_ASSIGNMENT|[88]|this|{}|0xbf37960
+02:04:00.40 (40594331)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+02:04:00.40 (40599313)|VARIABLE_ASSIGNMENT|[88]|escape|null
+02:04:00.0 (40837802)|SYSTEM_MODE_ENTER|true
+02:04:00.0 (40867231)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:13
+02:04:00.0 (40877325)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:344
+02:04:00.0 (40881251)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:93
+02:04:00.0 (40884028)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+02:04:00.0 (40891921)|METHOD_ENTRY|[1]|01p2800000FV1zj|AdhocScheduler.AdhocScheduler()
+02:04:00.0 (40894843)|STATEMENT_EXECUTE|[1]
+02:04:00.0 (40899150)|STATEMENT_EXECUTE|[1]
+02:04:00.0 (40900445)|STATEMENT_EXECUTE|[407]
+02:04:00.0 (40904047)|METHOD_EXIT|[1]|AdhocScheduler
+02:04:00.0 (41104751)|SYSTEM_MODE_ENTER|true
+02:04:00.0 (41385648)|SYSTEM_MODE_ENTER|true
+02:04:00.41 (41668912)|SYSTEM_MODE_ENTER|true
+02:04:00.41 (41732489)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+02:04:00.41 (41740724)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+02:04:00.41 (41765784)|VARIABLE_ASSIGNMENT|[88]|this|{}|0xbf37960
+02:04:00.41 (41771367)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+02:04:00.41 (41776385)|VARIABLE_ASSIGNMENT|[88]|escape|null
+02:04:00.0 (41846946)|SYSTEM_MODE_ENTER|true
+02:04:00.0 (41874099)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+02:04:00.0 (41887812)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:76
+02:04:00.0 (41905468)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this.selectedObj|"Contact"|0x64fcd278
+02:04:00.0 (41956650)|SYSTEM_MODE_ENTER|true
+02:04:00.0 (42673353)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:76
+02:04:00.0 (42684076)|VARIABLE_SCOPE_BEGIN|[44]|this|AdhocScheduler|true|false
+02:04:00.0 (42811251)|VARIABLE_ASSIGNMENT|[44]|this|{"applyFilterLogic":false,"filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":false}|0x64fcd278
+02:04:00.0 (42825802)|STATEMENT_EXECUTE|[44]
+02:04:00.0 (42827849)|STATEMENT_EXECUTE|[45]
+02:04:00.0 (42834189)|HEAP_ALLOCATE|[45]|Bytes:4
+02:04:00.0 (42937015)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":false}|0x64fcd278
+02:04:00.0 (42968353)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (42978583)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[]|0x5416be4e
+02:04:00.0 (42990925)|VARIABLE_ASSIGNMENT|[3]|this.objFields|[]|0x64fcd278
+02:04:00.0 (43058514)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":false}|0x64fcd278
+02:04:00.0 (43119742)|STATEMENT_EXECUTE|[46]
+02:04:00.0 (43122983)|STATEMENT_EXECUTE|[50]
+02:04:00.0 (43232815)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":false}|0x64fcd278
+02:04:00.0 (43249813)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|true
+02:04:00.0 (43258452)|HEAP_ALLOCATE|[4]|Bytes:5
+02:04:00.0 (43272935)|VARIABLE_ASSIGNMENT|[4]|this.showFields|true|0x64fcd278
+02:04:00.0 (43282865)|STATEMENT_EXECUTE|[51]
+02:04:00.0 (43344465)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (43367469)|HEAP_ALLOCATE|[51]|Bytes:8
+02:04:00.0 (43406351)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (43413424)|STATEMENT_EXECUTE|[52]
+02:04:00.0 (43471776)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (43510309)|VARIABLE_SCOPE_BEGIN|[52]|objSchema|Schema.SObjectType|true|false
+02:04:00.0 (43662267)|VARIABLE_ASSIGNMENT|[52]|objSchema|"common.apex.runtime.impl.ApexSObjectTypeToken@b81e60e"|0xb81e60e
+02:04:00.0 (43666793)|STATEMENT_EXECUTE|[53]
+02:04:00.0 (44939145)|HEAP_ALLOCATE|[53]|Bytes:4
+02:04:00.0 (50903947)|HEAP_ALLOCATE|[53]|Bytes:276
+02:04:00.0 (51231510)|VARIABLE_ASSIGNMENT|[53]|this.fieldMap|"{accountid=AccountId, assistantname=AssistantName, assistantphone=AssistantPhone, birthdate=Birthdate, bksl2__critical_notification__c=BKSL2__Critical_Notification__c, bksl2__facebook_content__c=BKSL2__Facebook_Content__c, bksl2__facebook_id__c=BKSL2__Facebook_ID__c, bksl2__gender__c=BKSL2__Gender__c, cleanstatus=CleanStatus, createdbyid=CreatedById, ...}"|0x64fcd278
+02:04:00.0 (51347073)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:276
+02:04:00.0 (51373864)|HEAP_ALLOCATE|[54]|Bytes:276
+02:04:00.0 (51426771)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (51456890)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (51528112)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@34d96eb6"|0x34d96eb6
+02:04:00.0 (51534214)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (51535860)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (51649950)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (51716003)|HEAP_ALLOCATE|[55]|Bytes:2
+02:04:00.0 (52553075)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (52598967)|HEAP_ALLOCATE|[55]|Bytes:2
+02:04:00.0 (52638871)|HEAP_ALLOCATE|[55]|Bytes:2
+02:04:00.0 (52704417)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (52728673)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (52748858)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (52840775)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@7991feba"|0x7991feba
+02:04:00.0 (52845757)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (52847141)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (52908862)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (52954958)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (53094082)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (53108397)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (53123384)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (53139766)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (53152140)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (53167917)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (53258002)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@7f3c275d"|0x7f3c275d
+02:04:00.0 (53263764)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (53265081)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (53320612)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (53363163)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (53518251)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (53531738)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (53546296)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (53562210)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (53574325)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (53589888)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (53659998)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@4cd855a0"|0x4cd855a0
+02:04:00.0 (53666293)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (53668651)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (53753395)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (53805175)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (56002905)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (56033659)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (56069049)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (56106029)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (56132145)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (56166439)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (56289893)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@338b3e53"|0x338b3e53
+02:04:00.0 (56297242)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (56299706)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (56419367)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (56482783)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (56789493)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (56822252)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (56850237)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (56883825)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (56907278)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (56937965)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (57028506)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@459972b6"|0x459972b6
+02:04:00.0 (57035568)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (57037792)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (57151161)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (57227335)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (57442218)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (57461824)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (57486335)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (57517451)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (57540121)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (57569682)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (57656063)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@5b81b397"|0x5b81b397
+02:04:00.0 (57662463)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (57664460)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (57748213)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (57819003)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (58047154)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (58067471)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (58091058)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (58121715)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (58143331)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (58178034)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (58265558)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@55fa9812"|0x55fa9812
+02:04:00.0 (58270821)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (58272419)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (58343829)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (58409719)|HEAP_ALLOCATE|[55]|Bytes:4
+02:04:00.0 (58600646)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (58616362)|HEAP_ALLOCATE|[55]|Bytes:4
+02:04:00.0 (58645446)|HEAP_ALLOCATE|[55]|Bytes:4
+02:04:00.0 (58676848)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (58698469)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (58732000)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (58834619)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@3fe94d58"|0x3fe94d58
+02:04:00.0 (58840134)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (58841621)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (58899476)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (58946940)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (59099250)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (59113923)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (59129156)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (59146142)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (59158901)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (59175189)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (59239121)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@316b84d1"|0x316b84d1
+02:04:00.0 (59243459)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (59244733)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (59296217)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (59334801)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (59459586)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (59472244)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (59486630)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (59502501)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (59515276)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (59530543)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (59591363)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@67208460"|0x67208460
+02:04:00.0 (59596234)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (59597453)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (59648654)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (59686974)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (59816056)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (59829069)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (59843443)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (59858960)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (59870780)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (59885830)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (59945954)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@669baa9e"|0x669baa9e
+02:04:00.0 (59950535)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (59951882)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (60002400)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (60042111)|HEAP_ALLOCATE|[55]|Bytes:15
+02:04:00.0 (60163651)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (60176021)|HEAP_ALLOCATE|[55]|Bytes:15
+02:04:00.0 (60190202)|HEAP_ALLOCATE|[55]|Bytes:15
+02:04:00.0 (60205523)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (60217096)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (60231958)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (60289882)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@136da898"|0x136da898
+02:04:00.0 (60294199)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (60295849)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (60345567)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (60382937)|HEAP_ALLOCATE|[55]|Bytes:12
+02:04:00.0 (60502497)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (60514854)|HEAP_ALLOCATE|[55]|Bytes:12
+02:04:00.0 (60528729)|HEAP_ALLOCATE|[55]|Bytes:12
+02:04:00.0 (60544169)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (60555513)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (60570310)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (60628266)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@7ecdeb28"|0x7ecdeb28
+02:04:00.0 (60632506)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (60633611)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (60682969)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (60719657)|HEAP_ALLOCATE|[55]|Bytes:13
+02:04:00.0 (60847339)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (60860036)|HEAP_ALLOCATE|[55]|Bytes:13
+02:04:00.0 (60873981)|HEAP_ALLOCATE|[55]|Bytes:13
+02:04:00.0 (60889238)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (60901029)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (60915783)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (60974509)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@1d2d7315"|0x1d2d7315
+02:04:00.0 (60978963)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (60980099)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (61028421)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (61067617)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (61189832)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (61202044)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (61215819)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (61230984)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (61242583)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (61257340)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (61315488)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@2659e574"|0x2659e574
+02:04:00.0 (61319835)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (61320945)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (61369997)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (61408585)|HEAP_ALLOCATE|[55]|Bytes:20
+02:04:00.0 (61521181)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (61533272)|HEAP_ALLOCATE|[55]|Bytes:20
+02:04:00.0 (61547174)|HEAP_ALLOCATE|[55]|Bytes:20
+02:04:00.0 (61562124)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (61573599)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (61588062)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (61647871)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@580eb04f"|0x580eb04f
+02:04:00.0 (61652281)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (61653415)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (61702243)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (61739878)|HEAP_ALLOCATE|[55]|Bytes:12
+02:04:00.0 (61843967)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (61856791)|HEAP_ALLOCATE|[55]|Bytes:12
+02:04:00.0 (61870420)|HEAP_ALLOCATE|[55]|Bytes:12
+02:04:00.0 (61885478)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (61896950)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (61911533)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (61971942)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@490b94cd"|0x490b94cd
+02:04:00.0 (61976151)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (61977342)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (62025855)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (62070903)|HEAP_ALLOCATE|[55]|Bytes:13
+02:04:00.0 (62222042)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (62240022)|HEAP_ALLOCATE|[55]|Bytes:13
+02:04:00.0 (62257769)|HEAP_ALLOCATE|[55]|Bytes:13
+02:04:00.0 (62273683)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (62285597)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (62300563)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (62360807)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@3fc8f322"|0x3fc8f322
+02:04:00.0 (62364968)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (62366064)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (62415642)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (62452573)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (62575431)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (62587829)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (62601807)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (62617023)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (62628614)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (62643196)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (62702138)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@56d3c3ea"|0x56d3c3ea
+02:04:00.0 (62706252)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (62707309)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (62756129)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (62792617)|HEAP_ALLOCATE|[55]|Bytes:12
+02:04:00.0 (62916283)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (62928430)|HEAP_ALLOCATE|[55]|Bytes:12
+02:04:00.0 (62942068)|HEAP_ALLOCATE|[55]|Bytes:12
+02:04:00.0 (62957033)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (62969163)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (62987400)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (63045428)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@7bf28db7"|0x7bf28db7
+02:04:00.0 (63050277)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (63051335)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (63100634)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (63137841)|HEAP_ALLOCATE|[55]|Bytes:17
+02:04:00.0 (63253669)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (63265918)|HEAP_ALLOCATE|[55]|Bytes:17
+02:04:00.0 (63279961)|HEAP_ALLOCATE|[55]|Bytes:17
+02:04:00.0 (63294672)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (63306070)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (63320228)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (63378208)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@6e4ac3f8"|0x6e4ac3f8
+02:04:00.0 (63382279)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (63383471)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (63431465)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (63468256)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (63585839)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (63598089)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (63611572)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (63626371)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (63638329)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (63652416)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (63710404)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@16636cf0"|0x16636cf0
+02:04:00.0 (63714708)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (63716051)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (63763205)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (63799115)|HEAP_ALLOCATE|[55]|Bytes:15
+02:04:00.0 (63924393)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (63936515)|HEAP_ALLOCATE|[55]|Bytes:15
+02:04:00.0 (63950355)|HEAP_ALLOCATE|[55]|Bytes:15
+02:04:00.0 (63965327)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (63980201)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (63995035)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (64051977)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@5e672145"|0x5e672145
+02:04:00.0 (64057049)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (64058200)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (64106416)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (64143058)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (64261973)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (64274707)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (64288233)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (64303162)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (64314534)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (64328841)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (64386682)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@3197800b"|0x3197800b
+02:04:00.0 (64390900)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (64391976)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (64439526)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (64475467)|HEAP_ALLOCATE|[55]|Bytes:22
+02:04:00.0 (64588341)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (64600415)|HEAP_ALLOCATE|[55]|Bytes:22
+02:04:00.0 (64614790)|HEAP_ALLOCATE|[55]|Bytes:22
+02:04:00.0 (64629942)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (64641289)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (64655625)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (64715298)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@97ad0c2"|0x97ad0c2
+02:04:00.0 (64719670)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (64720775)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (64769188)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (64812443)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (64910545)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (64922376)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (64936115)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (64951265)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (64962791)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (64980349)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (65038465)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@4f329f1"|0x4f329f1
+02:04:00.0 (65043397)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (65044464)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (65092554)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (65131039)|HEAP_ALLOCATE|[55]|Bytes:5
+02:04:00.0 (65267513)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (65279802)|HEAP_ALLOCATE|[55]|Bytes:5
+02:04:00.0 (65293492)|HEAP_ALLOCATE|[55]|Bytes:5
+02:04:00.0 (65308426)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (65320122)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (65334115)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (65392589)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@63f94d23"|0x63f94d23
+02:04:00.0 (65396836)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (65397862)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (65446814)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (65485514)|HEAP_ALLOCATE|[55]|Bytes:3
+02:04:00.0 (65616551)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (65628686)|HEAP_ALLOCATE|[55]|Bytes:3
+02:04:00.0 (65642445)|HEAP_ALLOCATE|[55]|Bytes:3
+02:04:00.0 (65657209)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (65668484)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (65682861)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (65740456)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@6ee30e8f"|0x6ee30e8f
+02:04:00.0 (65744773)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (65745958)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (65794439)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (65838504)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (65967679)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (65981985)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (65996546)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (66011850)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (66024367)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (66038589)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (66097679)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@31402f51"|0x31402f51
+02:04:00.0 (66101939)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (66102939)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (66150787)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (66190148)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (66321009)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (66333698)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (66347454)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (66362184)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (66373674)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (66388052)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (66445952)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@2c612429"|0x2c612429
+02:04:00.0 (66450050)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (66451174)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (66498226)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (66536796)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (66663659)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (66675778)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (66689821)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (66704817)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (66716184)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (66730462)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (66788085)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@558e4d3"|0x558e4d3
+02:04:00.0 (66792534)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (66793709)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (66845711)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (66883119)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (67016602)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (67029697)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (67043565)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (67058707)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (67070649)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (67084700)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (67141996)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@73391581"|0x73391581
+02:04:00.0 (67146398)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (67147592)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (67195004)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (67242807)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (67395292)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (67407425)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (67420854)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (67435770)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (67447520)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (67461642)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (67519282)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@43b38610"|0x43b38610
+02:04:00.0 (67523445)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (67524886)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (67572079)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (67610450)|HEAP_ALLOCATE|[55]|Bytes:5
+02:04:00.0 (67741422)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (67753795)|HEAP_ALLOCATE|[55]|Bytes:5
+02:04:00.0 (67767835)|HEAP_ALLOCATE|[55]|Bytes:5
+02:04:00.0 (67782487)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (67793784)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (67812499)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (67871066)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@66d6b223"|0x66d6b223
+02:04:00.0 (67875134)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (67876135)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (67923778)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (67963341)|HEAP_ALLOCATE|[55]|Bytes:5
+02:04:00.0 (68095010)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (68107940)|HEAP_ALLOCATE|[55]|Bytes:5
+02:04:00.0 (68121657)|HEAP_ALLOCATE|[55]|Bytes:5
+02:04:00.0 (68136694)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (68148224)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (68162631)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (68220933)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@24eaac56"|0x24eaac56
+02:04:00.0 (68225066)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (68226175)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (68273112)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (68313046)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (68441300)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (68453695)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (68467480)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (68482460)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (68494081)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (68508717)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (68566833)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@1fc43057"|0x1fc43057
+02:04:00.0 (68571054)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (68572134)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (68620052)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (68658499)|HEAP_ALLOCATE|[55]|Bytes:13
+02:04:00.0 (68787248)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (68799768)|HEAP_ALLOCATE|[55]|Bytes:13
+02:04:00.0 (68818344)|HEAP_ALLOCATE|[55]|Bytes:13
+02:04:00.0 (68833503)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (68845117)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (68859358)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (68918206)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@4018b6b9"|0x4018b6b9
+02:04:00.0 (68922485)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (68923531)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (68972789)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (69013996)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (69143320)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (69155763)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (69169440)|HEAP_ALLOCATE|[55]|Bytes:10
+02:04:00.0 (69184231)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (69195706)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (69210050)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (69277284)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@130c5333"|0x130c5333
+02:04:00.0 (69281442)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (69282616)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (69331257)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (69368004)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (69503481)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (69515730)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (69529502)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (69544261)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (69556039)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (69570291)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (69628890)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@6275c518"|0x6275c518
+02:04:00.0 (69633133)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (69634180)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (69681578)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (69721529)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (69863465)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (69875760)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (69889590)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (69904494)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (69916072)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (69930591)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (69993339)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@5c0d1789"|0x5c0d1789
+02:04:00.0 (69997778)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (69998929)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (70048025)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (70088704)|HEAP_ALLOCATE|[55]|Bytes:7
+02:04:00.0 (70243630)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (70256374)|HEAP_ALLOCATE|[55]|Bytes:7
+02:04:00.0 (70270694)|HEAP_ALLOCATE|[55]|Bytes:7
+02:04:00.0 (70285777)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (70297349)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (70312109)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (70371930)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@5925dfcf"|0x5925dfcf
+02:04:00.0 (70376256)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (70377377)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (70426650)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (70466871)|HEAP_ALLOCATE|[55]|Bytes:18
+02:04:00.0 (70600798)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (70613027)|HEAP_ALLOCATE|[55]|Bytes:18
+02:04:00.0 (70627155)|HEAP_ALLOCATE|[55]|Bytes:18
+02:04:00.0 (70642231)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (70654319)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (70669001)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (70728445)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@28c18a13"|0x28c18a13
+02:04:00.0 (70732784)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (70733862)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (70782003)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (70826089)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (70932826)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (70944837)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (70958850)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (70976742)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (70989143)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (71003706)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (71063868)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@64d0d716"|0x64d0d716
+02:04:00.0 (71068160)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (71069223)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (71117937)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (71158365)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (71264474)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (71276608)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (71290431)|HEAP_ALLOCATE|[55]|Bytes:9
+02:04:00.0 (71305377)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (71316820)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (71331046)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (71390491)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@50d5355a"|0x50d5355a
+02:04:00.0 (71394791)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (71395897)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (71444543)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (71485060)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (71633096)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (71646478)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (71660702)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (71675960)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (71687604)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (71702092)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (71762050)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@27795328"|0x27795328
+02:04:00.0 (71766227)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (71767304)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (71820463)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (71858800)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (71991304)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (72003293)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (72018511)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (72033626)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (72045060)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (72059755)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (72117503)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@3ccc4c6"|0x3ccc4c6
+02:04:00.0 (72121856)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (72123169)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (72171957)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (72211666)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (72330192)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (72342619)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (72356383)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (72371504)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (72382743)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (72396954)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (72454452)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@6146dbce"|0x6146dbce
+02:04:00.0 (72458852)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (72459858)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (72507806)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (72546697)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (72673354)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (72685457)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (72699205)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (72714002)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (72725636)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (72739916)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (72797482)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@18404d59"|0x18404d59
+02:04:00.0 (72805607)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (72806851)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (72855630)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (72894911)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (72997811)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (73009804)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (73024371)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (73039487)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (73051134)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (73065443)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (73123283)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@75cdbd6a"|0x75cdbd6a
+02:04:00.0 (73127629)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (73128808)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (73176238)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (73215246)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (73317473)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (73329538)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (73343206)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (73357896)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (73369134)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (73382975)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (73440721)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@10c2ade1"|0x10c2ade1
+02:04:00.0 (73444985)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (73446117)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (73494129)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (73533779)|HEAP_ALLOCATE|[55]|Bytes:17
+02:04:00.0 (73636807)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (73648903)|HEAP_ALLOCATE|[55]|Bytes:17
+02:04:00.0 (73662784)|HEAP_ALLOCATE|[55]|Bytes:17
+02:04:00.0 (73677767)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (73689490)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (73703459)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (73761371)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@470d8c9c"|0x470d8c9c
+02:04:00.0 (73765669)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (73766799)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (73819138)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (73859427)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (73958134)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (73971413)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (73986892)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (74001732)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (74013769)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (74027808)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (74085330)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@5d3d3ba1"|0x5d3d3ba1
+02:04:00.0 (74089757)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (74090975)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (74139581)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (74179478)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (74278116)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (74290041)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (74303822)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (74318495)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (74329853)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (74343935)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (74400603)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@4503eb81"|0x4503eb81
+02:04:00.0 (74405148)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (74406187)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (74454381)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (74493751)|HEAP_ALLOCATE|[55]|Bytes:18
+02:04:00.0 (74592109)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (74604060)|HEAP_ALLOCATE|[55]|Bytes:18
+02:04:00.0 (74617758)|HEAP_ALLOCATE|[55]|Bytes:18
+02:04:00.0 (74632565)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (74643699)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (74657508)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (74714906)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@402bfb65"|0x402bfb65
+02:04:00.0 (74719043)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (74720663)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (74768924)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (74812172)|HEAP_ALLOCATE|[55]|Bytes:18
+02:04:00.0 (74933110)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (74945545)|HEAP_ALLOCATE|[55]|Bytes:18
+02:04:00.0 (74959231)|HEAP_ALLOCATE|[55]|Bytes:18
+02:04:00.0 (74977205)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (74989601)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (75004233)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (75063205)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@6be9f690"|0x6be9f690
+02:04:00.0 (75067428)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (75068627)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (75117468)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (75158316)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (75272951)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (75285021)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (75298832)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (75313929)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (75325560)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (75339619)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (75398489)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@5f3d387f"|0x5f3d387f
+02:04:00.0 (75402685)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (75403782)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (75452643)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (75493216)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (75589840)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (75601685)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (75615588)|HEAP_ALLOCATE|[55]|Bytes:14
+02:04:00.0 (75630401)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (75641693)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (75655849)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (75713364)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@5b89ffa"|0x5b89ffa
+02:04:00.0 (75717829)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (75718815)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (75767305)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (75811536)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (75911064)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (75923027)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (75936712)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (75951195)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (75962748)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (75979934)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (76037622)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@1a57bcfb"|0x1a57bcfb
+02:04:00.0 (76042451)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (76043546)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (76091595)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (76131179)|HEAP_ALLOCATE|[55]|Bytes:6
+02:04:00.0 (76276714)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (76289109)|HEAP_ALLOCATE|[55]|Bytes:6
+02:04:00.0 (76302881)|HEAP_ALLOCATE|[55]|Bytes:6
+02:04:00.0 (76317994)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (76329323)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (76343552)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (76400777)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@3eae9457"|0x3eae9457
+02:04:00.0 (76405158)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (76406157)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (76454637)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (76494359)|HEAP_ALLOCATE|[55]|Bytes:15
+02:04:00.0 (76611422)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (76623362)|HEAP_ALLOCATE|[55]|Bytes:15
+02:04:00.0 (76637279)|HEAP_ALLOCATE|[55]|Bytes:15
+02:04:00.0 (76652000)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (76663253)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (76677473)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (76734373)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@866bd3d"|0x866bd3d
+02:04:00.0 (76738665)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (76740035)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (76787736)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (76829640)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (77269861)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (77283488)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (77298180)|HEAP_ALLOCATE|[55]|Bytes:11
+02:04:00.0 (77313568)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (77325606)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (77340722)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (77399817)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@49e0a484"|0x49e0a484
+02:04:00.0 (77404028)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (77405130)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (77455891)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (77500580)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (77639869)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (77652351)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (77665886)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (77680890)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (77692376)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (77706995)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (77764654)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@6ef77927"|0x6ef77927
+02:04:00.0 (77768877)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (77769966)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (77823501)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (77866988)|HEAP_ALLOCATE|[55]|Bytes:12
+02:04:00.0 (77988820)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (78000940)|HEAP_ALLOCATE|[55]|Bytes:12
+02:04:00.0 (78015434)|HEAP_ALLOCATE|[55]|Bytes:12
+02:04:00.0 (78030668)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (78042070)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (78056323)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (78114544)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@24314482"|0x24314482
+02:04:00.0 (78118906)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (78120025)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (78168956)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (78229367)|HEAP_ALLOCATE|[55]|Bytes:31
+02:04:00.0 (78383628)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (78395832)|HEAP_ALLOCATE|[55]|Bytes:31
+02:04:00.0 (78409690)|HEAP_ALLOCATE|[55]|Bytes:31
+02:04:00.0 (78424703)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (78436364)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (78450365)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (78507810)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@19039a6c"|0x19039a6c
+02:04:00.0 (78512113)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (78513180)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (78561705)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (78612323)|HEAP_ALLOCATE|[55]|Bytes:26
+02:04:00.0 (78760276)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (78772120)|HEAP_ALLOCATE|[55]|Bytes:26
+02:04:00.0 (78785852)|HEAP_ALLOCATE|[55]|Bytes:26
+02:04:00.0 (78805333)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (78817370)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (78831792)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (78889616)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@558bc94c"|0x558bc94c
+02:04:00.0 (78893937)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (78895055)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (78944094)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (78997216)|HEAP_ALLOCATE|[55]|Bytes:21
+02:04:00.0 (79146340)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (79160084)|HEAP_ALLOCATE|[55]|Bytes:21
+02:04:00.0 (79174055)|HEAP_ALLOCATE|[55]|Bytes:21
+02:04:00.0 (79189125)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (79200568)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (79214760)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (79273069)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@e0ac9b"|0xe0ac9b
+02:04:00.0 (79277414)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (79278448)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (79326666)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (79375859)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (79520414)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (79532389)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (79546562)|HEAP_ALLOCATE|[55]|Bytes:16
+02:04:00.0 (79561691)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (79572972)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (79587365)|VARIABLE_SCOPE_BEGIN|[54]|s1|Schema.SObjectField|true|false
+02:04:00.0 (79645705)|VARIABLE_ASSIGNMENT|[54]|s1|"common.apex.runtime.impl.ApexFieldToken@2e5bfd51"|0x2e5bfd51
+02:04:00.0 (79649985)|STATEMENT_EXECUTE|[54]
+02:04:00.0 (79651026)|STATEMENT_EXECUTE|[55]
+02:04:00.0 (79698591)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (79751894)|HEAP_ALLOCATE|[55]|Bytes:46
+02:04:00.0 (79905459)|HEAP_ALLOCATE|[55]|Bytes:8
+02:04:00.0 (79917618)|HEAP_ALLOCATE|[55]|Bytes:46
+02:04:00.0 (79931419)|HEAP_ALLOCATE|[55]|Bytes:46
+02:04:00.0 (79946815)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (79958502)|HEAP_ALLOCATE|[54]|Bytes:5
+02:04:00.0 (79970537)|VARIABLE_ASSIGNMENT|[54]|s1|null|
+02:04:00.0 (79974978)|STATEMENT_EXECUTE|[59]
+02:04:00.0 (80022039)|METHOD_ENTRY|[59]|01p2800000FV1zj|AdhocScheduler.activateFilters()
+02:04:00.0 (80065164)|VARIABLE_SCOPE_BEGIN|[176]|this|AdhocScheduler|true|false
+02:04:00.0 (80107118)|VARIABLE_ASSIGNMENT|[176]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (80114605)|STATEMENT_EXECUTE|[176]
+02:04:00.0 (80116004)|STATEMENT_EXECUTE|[177]
+02:04:00.0 (80126085)|METHOD_ENTRY|[177]|01p2800000FV1zj|AdhocScheduler.resetVariables()
+02:04:00.0 (80147560)|VARIABLE_SCOPE_BEGIN|[208]|this|AdhocScheduler|true|false
+02:04:00.0 (80186339)|VARIABLE_ASSIGNMENT|[208]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (80192904)|STATEMENT_EXECUTE|[208]
+02:04:00.0 (80194402)|STATEMENT_EXECUTE|[209]
+02:04:00.0 (80274877)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (80283434)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|null
+02:04:00.0 (80296939)|VARIABLE_ASSIGNMENT|[16]|this.preUsedFilter|null|0x64fcd278
+02:04:00.0 (80305475)|STATEMENT_EXECUTE|[210]
+02:04:00.0 (80313386)|HEAP_ALLOCATE|[210]|Bytes:4
+02:04:00.0 (80436805)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0xdfd64d8","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (80469871)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (80478804)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[]|0x31d9167b
+02:04:00.0 (80488926)|VARIABLE_ASSIGNMENT|[7]|this.filterWrapperList|[]|0x64fcd278
+02:04:00.0 (80495842)|STATEMENT_EXECUTE|[211]
+02:04:00.0 (80567809)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0x31d9167b","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (80575573)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|null
+02:04:00.0 (80583086)|VARIABLE_ASSIGNMENT|[8]|this.filterLogic|null|0x64fcd278
+02:04:00.0 (80591464)|METHOD_EXIT|[177]|01p2800000FV1zj|AdhocScheduler.resetVariables()
+02:04:00.0 (80594666)|STATEMENT_EXECUTE|[182]
+02:04:00.0 (80662450)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0x31d9167b","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (80672854)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|true
+02:04:00.0 (80677897)|HEAP_ALLOCATE|[9]|Bytes:5
+02:04:00.0 (80685160)|VARIABLE_ASSIGNMENT|[9]|this.applyFilters|true|0x64fcd278
+02:04:00.0 (80691876)|STATEMENT_EXECUTE|[184]
+02:04:00.0 (80700296)|METHOD_ENTRY|[184]|01p2800000FV1zj|AdhocScheduler.addFilter()
+02:04:00.0 (80719773)|VARIABLE_SCOPE_BEGIN|[215]|this|AdhocScheduler|true|false
+02:04:00.0 (80759469)|VARIABLE_ASSIGNMENT|[215]|this|{"applyFilterLogic":false,"applyFilters":true,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0x31d9167b","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (80767005)|STATEMENT_EXECUTE|[215]
+02:04:00.0 (80777992)|METHOD_ENTRY|[216]|01p2800000FV1zj|AdhocScheduler.validateFilterScreen()
+02:04:00.0 (80793320)|VARIABLE_SCOPE_BEGIN|[63]|this|AdhocScheduler|true|false
+02:04:00.0 (80835412)|VARIABLE_ASSIGNMENT|[63]|this|{"applyFilterLogic":false,"applyFilters":true,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0x31d9167b","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (80841834)|STATEMENT_EXECUTE|[63]
+02:04:00.0 (80899096)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"applyFilters":true,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0x31d9167b","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (80912778)|STATEMENT_EXECUTE|[66]
+02:04:00.0 (80973151)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"applyFilters":true,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0x31d9167b","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (81118587)|HEAP_ALLOCATE|[72]|Bytes:5
+02:04:00.0 (81259522)|VARIABLE_ASSIGNMENT|[72]|fw|null|
+02:04:00.0 (81264175)|STATEMENT_EXECUTE|[72]
+02:04:00.0 (81265886)|STATEMENT_EXECUTE|[144]
+02:04:00.0 (81272010)|METHOD_EXIT|[216]|01p2800000FV1zj|AdhocScheduler.validateFilterScreen()
+02:04:00.0 (81276121)|STATEMENT_EXECUTE|[216]
+02:04:00.0 (81332008)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"applyFilters":true,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0x31d9167b","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (81359454)|HEAP_ALLOCATE|[218]|Bytes:5
+02:04:00.0 (81369711)|VARIABLE_ASSIGNMENT|[218]|fw|null|
+02:04:00.0 (81372454)|STATEMENT_EXECUTE|[218]
+02:04:00.0 (81373666)|STATEMENT_EXECUTE|[222]
+02:04:00.0 (81382228)|HEAP_ALLOCATE|[222]|Bytes:332
+02:04:00.0 (81389388)|HEAP_ALLOCATE|[222]|Bytes:51
+02:04:00.0 (81435151)|HEAP_ALLOCATE|[222]|Bytes:56
+02:04:00.0 (81452419)|CONSTRUCTOR_ENTRY|[222]|01p2800000FV1zj|<init>()
+02:04:00.0 (81475617)|VARIABLE_SCOPE_BEGIN|[407]|this|AdhocScheduler.filterWrapper|true|false
+02:04:00.0 (81552165)|VARIABLE_ASSIGNMENT|[407]|this|{}|0x1fd5d386
+02:04:00.0 (81562011)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:6
+02:04:00.0 (81598297)|STATEMENT_EXECUTE|[407]
+02:04:00.0 (81600259)|STATEMENT_EXECUTE|[408]
+02:04:00.0 (81601445)|STATEMENT_EXECUTE|[409]
+02:04:00.0 (81602572)|STATEMENT_EXECUTE|[410]
+02:04:00.0 (81603463)|STATEMENT_EXECUTE|[411]
+02:04:00.0 (81604573)|STATEMENT_EXECUTE|[412]
+02:04:00.0 (81605514)|STATEMENT_EXECUTE|[413]
+02:04:00.0 (81606369)|STATEMENT_EXECUTE|[414]
+02:04:00.0 (81607253)|STATEMENT_EXECUTE|[415]
+02:04:00.0 (81608220)|STATEMENT_EXECUTE|[416]
+02:04:00.0 (81609182)|STATEMENT_EXECUTE|[417]
+02:04:00.0 (81609997)|STATEMENT_EXECUTE|[418]
+02:04:00.0 (81610989)|STATEMENT_EXECUTE|[419]
+02:04:00.0 (81611997)|STATEMENT_EXECUTE|[420]
+02:04:00.0 (81616613)|CONSTRUCTOR_EXIT|[222]|01p2800000FV1zj|<init>()
+02:04:00.0 (81620065)|VARIABLE_SCOPE_BEGIN|[222]|fw|AdhocScheduler.filterWrapper|true|false
+02:04:00.0 (81641211)|VARIABLE_ASSIGNMENT|[222]|fw|{}|0x1fd5d386
+02:04:00.0 (81643558)|STATEMENT_EXECUTE|[223]
+02:04:00.0 (81696903)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"applyFilters":true,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0x31d9167b","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (81753669)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{}|0x1fd5d386
+02:04:00.0 (81760801)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|0
+02:04:00.0 (81765148)|HEAP_ALLOCATE|[418]|Bytes:4
+02:04:00.0 (81772117)|VARIABLE_ASSIGNMENT|[418]|this.uniqueId|0|0x1fd5d386
+02:04:00.0 (81778254)|STATEMENT_EXECUTE|[224]
+02:04:00.0 (81832238)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"applyFilters":true,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0x31d9167b","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (81887733)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"uniqueId":0}|0x1fd5d386
+02:04:00.0 (81893393)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|1
+02:04:00.0 (81900959)|HEAP_ALLOCATE|[420]|Bytes:4
+02:04:00.0 (81907991)|VARIABLE_ASSIGNMENT|[420]|this.sequence|1|0x1fd5d386
+02:04:00.0 (81914299)|STATEMENT_EXECUTE|[225]
+02:04:00.0 (81970938)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"sequence":1,"uniqueId":0}|0x1fd5d386
+02:04:00.0 (81979533)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|null
+02:04:00.0 (81987316)|VARIABLE_ASSIGNMENT|[416]|this.dataType|null|0x1fd5d386
+02:04:00.0 (81994033)|STATEMENT_EXECUTE|[227]
+02:04:00.0 (82046640)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"applyFilters":true,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0x31d9167b","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (82066432)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (82124476)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"applyFilters":true,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0x31d9167b","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (82139165)|STATEMENT_EXECUTE|[230]
+02:04:00.0 (82140795)|STATEMENT_EXECUTE|[231]
+02:04:00.0 (82182401)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"sequence":1,"uniqueId":0}|0x1fd5d386
+02:04:00.0 (82203389)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (82238204)|STATEMENT_EXECUTE|[232]
+02:04:00.0 (82269938)|STATEMENT_EXECUTE|[233]
+02:04:00.0 (82298630)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+02:04:00.0 (82301527)|HEAP_ALLOCATE|[233]|Bytes:4
+02:04:00.0 (82308040)|STATEMENT_EXECUTE|[234]
+02:04:00.0 (82314035)|HEAP_ALLOCATE|[234]|Bytes:5
+02:04:00.0 (82367504)|HEAP_ALLOCATE|[234]|Bytes:5
+02:04:00.0 (82374314)|HEAP_ALLOCATE|[234]|Bytes:8
+02:04:00.0 (82378489)|HEAP_ALLOCATE|[234]|Bytes:5
+02:04:00.0 (82382351)|HEAP_ALLOCATE|[234]|Bytes:1
+02:04:00.0 (82436586)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"applyFilters":true,"fieldMap":"0x33c6adb8","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0x31d9167b","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (82443535)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"1"
+02:04:00.0 (82450433)|VARIABLE_ASSIGNMENT|[8]|this.filterLogic|"1"|0x64fcd278
+02:04:00.0 (82457047)|STATEMENT_EXECUTE|[235]
+02:04:00.0 (82461103)|HEAP_ALLOCATE|[235]|Bytes:16
+02:04:00.0 (82501823)|HEAP_ALLOCATE|[235]|Bytes:3
+02:04:00.0 (82512639)|HEAP_ALLOCATE|[235]|Bytes:2
+02:04:00.0 (82527332)|HEAP_ALLOCATE|[235]|Bytes:3
+02:04:00.0 (82581752)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"applyFilterLogic":false,"applyFilters":true,"fieldMap":"0x33c6adb8","filterLogic":"1","filterLogicList":"0x2372a697","filterLogicSet":"0x5cb165f8","filterWrapperList":"0x31d9167b","nullAllowedDataTypes":"Datetime,Date,Decima (16 more) ...","objFields":"0x5416be4e","objNames":"0x71e40f31","schemaMap":"0x35afdb54","selectedObj":"Contact","showFields":true}|0x64fcd278
+02:04:00.0 (82605347)|HEAP_ALLOCATE|[235]|Bytes:27
+02:04:00.0 (82640271)|USER_DEBUG|[235]|DEBUG|filterLogicSet=={1}==(1)==1
+02:04:00.0 (82649452)|METHOD_EXIT|[184]|01p2800000FV1zj|AdhocScheduler.addFilter()
+02:04:00.0 (82653362)|METHOD_EXIT|[59]|01p2800000FV1zj|AdhocScheduler.activateFilters()
+02:04:00.89 (89817624)|SYSTEM_MODE_ENTER|true
+02:04:00.89 (89918189)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+02:04:00.89 (89933555)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+02:04:00.89 (89981696)|VARIABLE_ASSIGNMENT|[88]|this|{}|0xbf37960
+02:04:00.89 (89985787)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+02:04:00.89 (89990577)|VARIABLE_ASSIGNMENT|[88]|escape|null
+02:04:00.90 (90107395)|SYSTEM_MODE_ENTER|true
+02:04:00.90 (90138702)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+02:04:00.90 (90144142)|VARIABLE_SCOPE_BEGIN|[2]|this|ApexPage.PageMessagesComponentController|true|false
+02:04:00.90 (90161006)|VARIABLE_ASSIGNMENT|[2]|this|{}|0xbf37960
+02:04:00.0 (90581601)|SYSTEM_MODE_ENTER|true
+02:04:00.0 (90689904)|SYSTEM_MODE_ENTER|true
+02:04:00.0 (90771261)|SYSTEM_MODE_ENTER|true
+02:04:00.0 (91774786)|SYSTEM_MODE_ENTER|true
+02:04:00.97 (97173339)|SYSTEM_MODE_ENTER|true
+02:04:00.97 (97263607)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+02:04:00.97 (97278839)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+02:04:00.97 (97325295)|VARIABLE_ASSIGNMENT|[88]|this|{}|0xbf37960
+02:04:00.97 (97329012)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+02:04:00.97 (97333865)|VARIABLE_ASSIGNMENT|[88]|escape|null
+02:04:00.97 (97490217)|SYSTEM_MODE_ENTER|true
+02:04:00.97 (97521579)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+02:04:00.97 (97527274)|VARIABLE_SCOPE_BEGIN|[2]|this|ApexPage.PageMessagesComponentController|true|false
+02:04:00.97 (97544402)|VARIABLE_ASSIGNMENT|[2]|this|{}|0xbf37960
+02:04:00.0 (99761905)|SYSTEM_MODE_ENTER|true
+02:04:00.0 (100128959)|SYSTEM_MODE_ENTER|true
+02:04:00.0 (110207990)|SYSTEM_MODE_ENTER|true
+02:04:00.0 (115060933)|VF_SERIALIZE_VIEWSTATE_BEGIN|06628000008N9Wm
+02:04:00.0 (147994840)|VF_SERIALIZE_VIEWSTATE_END
+02:04:00.0 (633157703)|CODE_UNIT_STARTED|[EXTERNAL]|Generate Metadata
+02:04:00.0 (713082482)|CODE_UNIT_FINISHED|Generate Metadata
+02:04:00.737 (737446411)|CUMULATIVE_LIMIT_USAGE
+02:04:00.737 (737446411)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+02:04:00.737 (737446411)|CUMULATIVE_LIMIT_USAGE_END
+
+02:04:00.0 (737515779)|CODE_UNIT_FINISHED|VF: /apex/AdhocSchedulerVF
+02:04:00.0 (739259360)|EXECUTION_FINISHED

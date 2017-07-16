@@ -1,0 +1,49 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000FEID8AAP",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000FEID8AAP",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "deleteAll",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "DreamHouseSampleDataController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "global",
+            "with sharing"
+        ],
+        "name": "DreamHouseSampleDataController",
+        "references": [],
+        "type": "DreamHouseSampleDataController"
+    },
+    "variables": []
+}

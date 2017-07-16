@@ -1,0 +1,68 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable" controller="RecentlyViewedRecords">
+    <!--ltng:require styles="{!join(',', $Resource.SLDS214 + '/assets/styles/salesforce-lightning-design-system.css', $Resource.BootstrapCss)}"/>
+    <ltng:require scripts="{!join(',',$Resource.JQueryMin, $Resource.Bootstrap + '/js/bootstrap.js',$Resource.Bootstrap + '/js/npm.js')}"
+                  styles="{!join(',', $Resource.SLDS214 + '/assets/styles/salesforce-lightning-design-system.css',$Resource.Bootstrap + '/css/bootstrap.css')}"
+                  afterScriptsLoaded="{!c.afterScriptsLoaded}"/>-->
+    <ltng:require scripts="{!join(',',$Resource.JQueryMin, $Resource.TooltipJS ,$Resource.BootstrapJS)}"
+                  styles="{!join(',', $Resource.SLDS214 + '/assets/styles/salesforce-lightning-design-system.css' )}"
+                  afterScriptsLoaded="{!c.afterScriptsLoaded}"/>
+    <!--ltng:require scripts="/resource/JQueryMin,/resource/BootstrapJS" 
+                  styles='/resource/SLDS214/assets/styles/salesforce-lightning-design-system.css'
+                  afterScriptsLoaded="{!c.afterScriptsLoaded}"/>
+    <ltng:require scripts='/resource/Bootstrap' />-->
+    <aura:attribute name="id" type="String" />
+    <aura:attribute name="iconUrl" type="String" />
+    <aura:attribute name="viewUrl" type="String" />
+    <aura:attribute name="name" type="String" />
+    <aura:attribute name="objectName" type="String" />
+    <aura:attribute name="objectApi" type="String" />
+    <aura:attribute name="FieldsNameMap" type="Object[]" default="[]"/>
+    
+    <aura:attribute name="hovering" type="Boolean" default="false" access="private" />
+    <aura:attribute name="timers" type="Object[]" default="[]" />
+    <aura:attribute name="timeout" type="Integer" access="private" />
+    <tr>
+        <td>
+            <div class="pop-wrapper" onmouseover="{!c.showRelatedHover}" onmouseleave="{!c.hideRelatedHover}">
+                <lightning:icon iconName="{!v.iconUrl}" size="x-small" />
+                &nbsp;
+                <a id="{!v.id}" rel="popover" class="textUnderline" data-toggle="popover" data-container="body" title="title" href="{!v.viewUrl}" aura:id="hrefLink" data-id='{!v.id}' style="width:100%;"> 
+                    {!v.name}
+                </a>
+                &nbsp;&nbsp;
+                <div class="forceHoverPrototype animate slds-hide" style="position:absolute;" aura:id="hoverCmp" >
+                    <!--c:hover rId="{!v.id}" iconUrl="{!v.iconUrl}" FieldsNameMap="{!v.FieldsNameMap}"></c:hover>
+
+
+-->
+                </div>
+                <!--section class="slds-popover "></section>
+                    <div class="scrollableContainer"  style="max-height: 784px; overflow-y: hidden;" Id="hoverCmpId" >
+                        
+                    </div>
+                <div class="slds-truncate" >
+                </div>
+                <div style="display:inline-block;position:absolute;right:60%;top:75%;z-index-popup:5000;">
+                </div>-->
+            </div>
+        </td>
+        <td>
+            {!v.objectName}
+        </td>
+        <td>
+            <div data-record='{!v.id}' onclick="{!c.editRecord}" >
+                <c:svgIcon svgPath="/resource/slds214/assets/icons/utility-sprite/svg/symbols.svg#edit" category="utility-sprite" size="x-small" name="{!v.id}" class="slds-icon slds-icon-text-default" assistiveText="Edit Record"/>
+            </div>
+        </td>
+    </tr>
+    <div  style="display: none">
+        <div>This is your div content</div>
+    </div>
+    <div id="popover_content_wrapper" class="popover" role="tooltip" style="display: none">
+        <div class="arrow"></div>
+        <h3 class="popover-title"></h3>
+        <div class="popover-content">
+            This is your div content
+        </div>
+    </div>
+</aura:component>

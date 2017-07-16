@@ -1,0 +1,377 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000FEIDGAA5",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 39
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "QueueablePushCall",
+                    "parameters": [
+                        {
+                            "name": "url",
+                            "type": "String"
+                        },
+                        {
+                            "name": "method",
+                            "type": "String"
+                        },
+                        {
+                            "name": "body",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "System.Queueable",
+                "Database.AllowsCallouts"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 45
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "execute",
+                    "parameters": [
+                        {
+                            "name": "ctx",
+                            "type": "QueueableContext"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "QueueablePushCall",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 35
+                    },
+                    "modifiers": [
+                        "private",
+                        "final"
+                    ],
+                    "name": "url",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 36
+                    },
+                    "modifiers": [
+                        "private",
+                        "final"
+                    ],
+                    "name": "method",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 37
+                    },
+                    "modifiers": [
+                        "private",
+                        "final"
+                    ],
+                    "name": "body",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 33
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "QueueablePushCall",
+                "references": [],
+                "type": "QueueablePushCall"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 41,
+                        "line": 39
+                    },
+                    "modifiers": [],
+                    "name": "url",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 53,
+                        "line": 39
+                    },
+                    "modifiers": [],
+                    "name": "method",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 68,
+                        "line": 39
+                    },
+                    "modifiers": [],
+                    "name": "body",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 53,
+                        "line": 45
+                    },
+                    "modifiers": [],
+                    "name": "ctx",
+                    "references": [],
+                    "type": "QueueableContext"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 46
+                    },
+                    "modifiers": [],
+                    "name": "req",
+                    "references": [],
+                    "type": "HttpRequest"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 50
+                    },
+                    "modifiers": [],
+                    "name": "http",
+                    "references": [],
+                    "type": "Http"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 51
+                    },
+                    "modifiers": [],
+                    "name": "res",
+                    "references": [],
+                    "type": "HttpResponse"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p2800000FEIDGAA5",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "InvocableMethod"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "pushNotification",
+            "parameters": [
+                {
+                    "name": "propertyId",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "PushPriceChangeNotification",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "PushPriceChangeNotification",
+        "references": [],
+        "type": "PushPriceChangeNotification"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "propertyId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "pushServerURL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Dreamhouse_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "propId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "property",
+            "references": [],
+            "type": "Property__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "message",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "userIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 21
+            },
+            "modifiers": [],
+            "name": "favorites",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "favorite",
+            "references": [],
+            "type": "Favorite__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "payload",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "body",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

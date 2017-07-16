@@ -1,0 +1,67 @@
+<aura:component controller="RecentlyViewedRecords" implements="flexipage:availableForAllPageTypes">
+    <ltng:require styles="{!$Resource.SLDS214 + '/assets/styles/salesforce-lightning-design-system.css'}"/>
+    
+    <!--lightning:tabset >
+        <lightning:tab label="Buttons">
+            <c:buttons />
+        </lightning:tab>
+        <lightning:tab label="Input">
+            <c:inputs />
+        </lightning:tab>
+        <lightning:tab label="Output">
+            <c:outputs />
+        </lightning:tab>
+    </lightning:tabset-->
+    <!--c:redirectToUrl Id="{!rec.Id}" Name="{!rec.Name}"/-->
+    <!--a href="{!rec.Id}"> 
+                                    {!rec.Name}
+                                </a-->
+    <!--img id="icon-classic" src="{!rec.iconUrl}"></img-->
+    <!--c:svgIcon svgPath="/resource/slds214/assets/icons/custom-sprite/svg/symbols.svg#custom33" category="custom" size="x-small" name="{!rec.rv.Id}" class="slds-icon slds-icon-text-default" assistiveText="Edit Record"/-->
+    <!--lightning:icon iconName="{!rec.iconUrl}" size="x-small" /-->
+    <!--aura:if isTrue="{!rec.isIconLightning}" else=""-->
+    <!--lightning:icon iconName="{!rec.iconUrl}" size="x-small" /-->
+    <!--aura:set attribute="else"-->
+    <!--lightning:icon iconName="custom:custom33" size="x-small" /-->
+    <!--img id="icon-classic" src="{!rec.iconUrl}"></img-->
+    <!--c:svgIcon svgPath="{!rec.iconUrl}" category="custom-sprite" size="x-small" name="{!rec.rv.Id}" class="slds-icon slds-icon-text-default"/-->
+    <!--/aura:set-->
+    <!--/aura:if-->
+    <aura:handler name="init" action="{!c.myAction}" value="{!this}" />
+    <aura:attribute name="records" type="List" />
+    <aura:attribute name="hovering" type="Boolean" default="false" access="private" />
+    <aura:attribute name="showPopup" type="Boolean" default="false" access="private" />
+    <ul>
+        <table class="slds-table slds-table--bordered slds-table--striped">
+            <tbody>
+                <aura:iteration items="{!v.records}" var="rec">
+                    <c:hoverComponent id="{!rec.rv.Id}" iconUrl="{!rec.iconUrl}" viewUrl="{!rec.viewUrl}" name="{!rec.rv.Name}" objectName="{!rec.objectName}" objectApi="{!rec.objectApi}"></c:hoverComponent>
+                    <!--tr>
+                        <td>
+                            <div class="slds-truncate">
+                                <lightning:icon iconName="{!rec.iconUrl}" size="x-small" />
+                                &nbsp;
+                                
+                                <a href="{!rec.viewUrl}" data-id='{!rec.rv.Id}' style="width:100%;" onmouseover="{!c.onHoverPanel}" onmouseleave="{!c.onLeavePanel}"> 
+                                    {!rec.rv.Name}
+                                </a>
+
+                                <div class="accountName-hoverContainer hidden" aura:id="hoverCmp" Id="{!rec.rv.Id}" >
+                                	<c:hover rId="{!rec.rv.Id}"></c:hover>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                        	{!rec.objectName}
+                        </td>
+                        <td>
+                            <div data-record='{!rec.rv.Id}' onclick="{!c.editRecord}" >
+                                <c:svgIcon svgPath="/resource/slds214/assets/icons/utility-sprite/svg/symbols.svg#edit" category="utility-sprite" size="x-small" name="{!rec.rv.Id}" class="slds-icon slds-icon-text-default" assistiveText="Edit Record"/>
+                            </div>
+                        </td>
+                    </tr-->
+                </aura:iteration>
+            </tbody>
+        </table>
+    </ul> 
+</aura:component>

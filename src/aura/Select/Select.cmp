@@ -1,0 +1,29 @@
+<aura:component >
+    <aura:attribute name="label" type="String" />
+    <aura:attribute name="options" type="List" />
+    <aura:attribute name="processedOptions" type="List" access="private"/>
+    <aura:attribute name="placeholder" type="String" />
+    <aura:attribute name="value" type="String" />
+    <aura:attribute name="selectedIndex" type="Integer" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <aura:handler name="change" value="{!v.options}" action="{!c.changeOptions}"/>
+    <aura:handler name="change" value="{!v.value}" action="{!c.changeValue}"/>
+    
+    <div class="slds-form-element">
+        <div class="slds-form-element__control">
+            <div class="slds-select_container">
+                <select aura:id="select" class="{! (v.value == '###None###' ? 'placeholder ' : '') + 'slds-select' }"
+                        onchange="{!c.changeSelect}" selectedIndex="{!v.selectedIndex}">
+                    <aura:if isTrue="{! !empty(v.placeholder) }">
+                        <option class="placeholder" value="###None###">{!v.placeholder}</option>
+                    </aura:if>
+                    <aura:iteration items="{!v.processedOptions}" var="option">
+                        <option class="option" value="{!option.value}">{!option.label}</option>
+                    </aura:iteration>
+                </select>
+            </div>
+        </div>
+    </div>
+
+</aura:component>

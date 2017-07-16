@@ -1,0 +1,304 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 27.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Mavericks/Documents/SelfProjectLightning",
+		"/Users/Mavericks/Documents/SelfProjectLightning/src/aura"
+	],
+	"file_history":
+	[
+		"/Users/Mavericks/Downloads/lexutilitybardemo-master/src/aura/inputs/inputs.cmp-meta.xml",
+		"/Users/Mavericks/Documents/Stats Dev1/src/classes/StagingElementUtils.cls",
+		"/Users/Mavericks/Documents/Stats Dev1/src/classes/ResponseTriggerHandler.cls",
+		"/Users/Mavericks/Documents/Stats Dev1/src/classes/WorkitemWorkflowAction.cls",
+		"/Users/Mavericks/Documents/Stats Dev1/src/classes/WorkItemTriggerHandler.cls",
+		"/Users/Mavericks/Documents/Stats Dev1/src/pages/ActivityScheduleFilters.page",
+		"/Users/Mavericks/Documents/Stats Dev1/src/classes/ActivityScheduleExtractClient.cls",
+		"/Users/Mavericks/Documents/Stats Dev1/src/classes/SocialHouseholdHistoryViewExCon.cls",
+		"/Users/Mavericks/Documents/Stats Dev1/src/classes/WorkItemHouseholdSummaryViewExCon.cls",
+		"/Users/Mavericks/Documents/Stats Dev1/src/triggers/ResponseTrigger.trigger",
+		"/Users/Mavericks/Documents/Stats Dev1/src/classes/RolloverBatch.cls",
+		"/Users/Mavericks/Documents/Stats Dev1/src/classes/AdminCustomSettingsPageController.cls"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Mavericks/Documents/Stats Dev1/src/classes"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"MESSAGE_ROLLOVER_NOTFOUND",
+			"processUpsertResults",
+			"WorkItemCSVColumn",
+			",",
+			"  ",
+			"{  ",
+			"  \"",
+			"origin__c",
+			"Id",
+			"httpRequest",
+			"pageReference",
+			"QTY",
+			"PRODUCT MODEL: ",
+			"2367",
+			"processContactUpsertResults",
+			"typeOf",
+			"tns:DomainSite",
+			"tns:Site",
+			"tns:ContentDocument",
+			"tns:OwnedContentDocument",
+			"tns:ContentDocument",
+			"tns:ContentVersion",
+			"tns:ContentDocument",
+			"tns:OwnedContentDocument",
+			"tns:ContentDocument",
+			"tns:ContentFolderMember",
+			"tns:ContentDocument",
+			"tns:ContentDocumentLink",
+			"tns:ContentDocumentHistory",
+			"tns:ContentDocument",
+			"tns:ContentVersion",
+			"tns:ContentDistribution",
+			"tns:ContentDistributionView",
+			"tns:ContentVersion",
+			"tns:FieldDefinition",
+			"tns:RelationshipReferenceTo",
+			"tns:UserPackageLicense",
+			"tns:RecordTypesSupported",
+			"tns:ObjectPermissions",
+			"tns:Community",
+			"tns:CombinedAttachment",
+			"tns:Contract",
+			"tns:ListView",
+			"ListView",
+			"tns:ListView",
+			"tns:Event",
+			"tns:DeclinedEventRelation",
+			"tns:Event",
+			"tns:EntityParticle",
+			"tns:Opportunity",
+			"<xsd:complexType name=\"EntityDefinition",
+			"UserRecordAccess",
+			"<xsd:complexType name=\"folder",
+			"folder",
+			"Task",
+			"ApexTestSuite",
+			"DebuggingHeader",
+			"ApexTestResult",
+			"ProcessNode",
+			"CallOptions",
+			"ProcessInstanceNode",
+			"calloption",
+			"Lead",
+			"case",
+			"casesolution",
+			"solution",
+			"casesolution",
+			"SearchLayoutFieldsDisplayed",
+			"SearchLayoutButtonsDisplayed",
+			"RecordTypesSupported",
+			"RelationshipReferenceTo",
+			"JunctionIdListNames",
+			"<xsd:extension base=\"tns:QueryResult",
+			"QueryResult",
+			"JunctionIdListNames",
+			"NewValue",
+			"\" ",
+			"NewValue"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SelfProjectLightning.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rolloverbatch",
+				"src/classes/RolloverBatch.cls"
+			],
+			[
+				"rolloverresponsescontroller",
+				"src/classes/RolloverResponsesController.cls"
+			],
+			[
+				"genericsobjectselectoptionfactory",
+				"src/classes/GenericsObjectSelectOptionFactory.cls"
+			],
+			[
+				"createworkitemsbatch",
+				"src/classes/CreateWorkItemsBatch.cls"
+			],
+			[
+				"creat",
+				"src/classes/CreateWorkItemsExCon.cls"
+			],
+			[
+				"rollover",
+				"src/classes/RolloverBatch.cls"
+			],
+			[
+				"stagin",
+				"src/classes/StagingElementUtils.cls"
+			],
+			[
+				"workitemtriggerh",
+				"src/classes/WorkItemTriggerHandler.cls"
+			],
+			[
+				"workitemworkflowaction",
+				"src/classes/WorkitemWorkflowAction.cls"
+			],
+			[
+				"responsetrigg",
+				"src/triggers/ResponseTrigger.trigger"
+			],
+			[
+				"responsetriggerh",
+				"src/classes/ResponseTriggerHandler.cls"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

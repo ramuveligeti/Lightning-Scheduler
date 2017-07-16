@@ -1,0 +1,19 @@
+{
+    "projectName": "SelfProjectLightning",
+    "username": "ramu.veligeti@yahoo.co.in",
+    "id": "3307bdd0-c890-11e6-94da-b7dcb309d0d0",
+    "namespace": "",
+    "environment": "production",
+    "loginUrl": "https://login.salesforce.com/",
+    "workspace": "/Users/Mavericks/Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "AuraDefinitionBundle",
+        "StaticResource"
+    ],
+    "orgType": "production",
+    "instanceUrl": "https://rvt-dev-ed.my.salesforce.com"
+}

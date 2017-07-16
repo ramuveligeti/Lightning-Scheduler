@@ -1,0 +1,343 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000FEIDBAA5",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 34
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "QueueableSlackCall",
+                    "parameters": [
+                        {
+                            "name": "url",
+                            "type": "String"
+                        },
+                        {
+                            "name": "method",
+                            "type": "String"
+                        },
+                        {
+                            "name": "body",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "System.Queueable",
+                "Database.AllowsCallouts"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 40
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "execute",
+                    "parameters": [
+                        {
+                            "name": "ctx",
+                            "type": "QueueableContext"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "QueueableSlackCall",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 30
+                    },
+                    "modifiers": [
+                        "private",
+                        "final"
+                    ],
+                    "name": "url",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 31
+                    },
+                    "modifiers": [
+                        "private",
+                        "final"
+                    ],
+                    "name": "method",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 32
+                    },
+                    "modifiers": [
+                        "private",
+                        "final"
+                    ],
+                    "name": "body",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 28
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "QueueableSlackCall",
+                "references": [],
+                "type": "QueueableSlackCall"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 42,
+                        "line": 34
+                    },
+                    "modifiers": [],
+                    "name": "url",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 34
+                    },
+                    "modifiers": [],
+                    "name": "method",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 69,
+                        "line": 34
+                    },
+                    "modifiers": [],
+                    "name": "body",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 53,
+                        "line": 40
+                    },
+                    "modifiers": [],
+                    "name": "ctx",
+                    "references": [],
+                    "type": "QueueableContext"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 41
+                    },
+                    "modifiers": [],
+                    "name": "req",
+                    "references": [],
+                    "type": "HttpRequest"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 44
+                    },
+                    "modifiers": [],
+                    "name": "http",
+                    "references": [],
+                    "type": "Http"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 45
+                    },
+                    "modifiers": [],
+                    "name": "res",
+                    "references": [],
+                    "type": "HttpResponse"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p2800000FEIDBAA5",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "InvocableMethod"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "postToSlack",
+            "parameters": [
+                {
+                    "name": "propertyId",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "PostPriceChangeToSlack",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "PostPriceChangeToSlack",
+        "references": [],
+        "type": "PostPriceChangeToSlack"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "propertyId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "slackURL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Dreamhouse_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "propId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "property",
+            "references": [],
+            "type": "Property__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "message",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "payload",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "body",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

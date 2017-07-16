@@ -1,0 +1,58 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable" controller="AdhocSchedulerLightning">
+    <aura:attribute name="sequence" type="Integer"/>
+    <aura:attribute name="fields" type="List" />
+    <aura:attribute name="sf" type="String"/>
+    <aura:attribute name="selectedField" type="String"/>
+    <aura:attribute name="selectedOperator" type="String"/>
+    <aura:attribute name="selectedValue" type="String"/>
+    <aura:attribute name="filterWrapper" type="Object" />
+    <aura:attribute name="fw" type="Object" />
+    <aura:attribute name="operators" type="SelectOption" />
+    <aura:attribute name="picklistOptions" type="Object[]" />
+    <aura:attribute name="selectedObj" type="String"/>
+    <aura:attribute name="dataType" type="String"/>
+    <aura:attribute name="value" type="String"/>
+    <aura:attribute name="sch" type="Object"/>
+    <aura:handler name="init" action="{!c.myAction}" value="{!this}" />
+    <aura:registerEvent name="addFilterWrapperEvent" type="c:AddFilters"/>
+    <tr>
+        <td scope="row" style="width:30%">
+            <div class="slds-truncate" title="Cloudhub">
+                <ui:inputSelect class="slds-text-title--caps" options="{!v.fields}" value="{!v.selectedField}" change="{!c.dispOperator}"/>
+            </div>
+        </td>
+        <td data-label="Account Name">
+            <div class="slds-truncate" title="operator">
+                <ui:inputSelect class="slds-text-title--caps" aura:id="operatorValues" value="{!v.fw.filterOperator}" change="{!c.assignOperator}" required="true"/>
+            </div>
+        </td>
+        <td data-label="Close Date">
+            <div class="slds-truncate" title="value">
+                <aura:if isTrue="{!v.dataType == 'Date'}">
+                	<ui:inputDate class="field" value="{!v.fw.sch.Schedule_Date__c}" displayDatePicker="true"/>
+                </aura:if>
+                <aura:if isTrue="{!v.dataType == 'Datetime'}">
+                    <ui:inputDateTime class="field" value="{!v.fw.sch.Schedule_Datetime__c}" displayDatePicker="true"/>
+                </aura:if>
+                <aura:if isTrue="{!v.dataType == 'String'}">
+                	<ui:inputText aura:id="name" value="{!v.fw.value}"/>
+                </aura:if>
+                <aura:if isTrue="{!v.dataType == 'Lookup'}">
+                	<ui:inputText aura:id="name" value="{!v.fw.lookupValue}"/>
+                </aura:if>
+                <aura:if isTrue="{!v.dataType == 'Boolean'}">
+                	<ui:inputCheckbox aura:id="name" value="{!v.fw.value}"/>
+                </aura:if>
+                <aura:if isTrue="{!v.dataType == 'Picklist'}">
+                	<ui:inputSelect class="slds-text-title--caps" options="{!v.picklistOptions}" value="{!v.fw.value}"/>
+                </aura:if>
+            </div>
+        </td>
+        <td scope="row" style="width:1px">
+            <lightning:buttonIcon iconName="utility:close" size="medium" alternativeText="Indicates approval"/>
+            <div class="divider"/>
+            <lightning:buttonIcon iconName="utility:add" size="medium" alternativeText="Indicates approval" onclick="{!c.fireEvent}"/>
+        </td>
+    </tr>
+    
+</aura:component>

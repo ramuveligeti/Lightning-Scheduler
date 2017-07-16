@@ -1,0 +1,178 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000FELrpAAH",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "RecentlyViewedWrapper",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 21
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isIconLightning",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 26
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "iconUrl",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 28
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "rv",
+                    "references": [],
+                    "type": "RecentlyViewed"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 19
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "RecentlyViewedWrapper",
+                "references": [],
+                "type": "RecentlyViewedWrapper"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p2800000FELrpAAH",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecentlyViewed",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 15
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getIconURL",
+            "parameters": [
+                {
+                    "name": "recordId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "RecentlyViewedRecords",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "RecentlyViewedRecords",
+        "references": [],
+        "type": "RecentlyViewedRecords"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "rvList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "rv",
+            "references": [],
+            "type": "RecentlyViewed"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "rvw",
+            "references": [],
+            "type": "RecentlyViewedWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "recordId",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

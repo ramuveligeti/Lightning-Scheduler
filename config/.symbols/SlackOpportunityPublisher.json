@@ -1,0 +1,327 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000FEIDLAA5",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 23
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "QueueableSlackCall",
+                    "parameters": [
+                        {
+                            "name": "url",
+                            "type": "String"
+                        },
+                        {
+                            "name": "method",
+                            "type": "String"
+                        },
+                        {
+                            "name": "body",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "System.Queueable",
+                "Database.AllowsCallouts"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 29
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "execute",
+                    "parameters": [
+                        {
+                            "name": "ctx",
+                            "type": "QueueableContext"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "QueueableSlackCall",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 19
+                    },
+                    "modifiers": [
+                        "private",
+                        "final"
+                    ],
+                    "name": "url",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 20
+                    },
+                    "modifiers": [
+                        "private",
+                        "final"
+                    ],
+                    "name": "method",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 21
+                    },
+                    "modifiers": [
+                        "private",
+                        "final"
+                    ],
+                    "name": "body",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 17
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "QueueableSlackCall",
+                "references": [],
+                "type": "QueueableSlackCall"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 42,
+                        "line": 23
+                    },
+                    "modifiers": [],
+                    "name": "url",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 23
+                    },
+                    "modifiers": [],
+                    "name": "method",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 69,
+                        "line": 23
+                    },
+                    "modifiers": [],
+                    "name": "body",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 53,
+                        "line": 29
+                    },
+                    "modifiers": [],
+                    "name": "ctx",
+                    "references": [],
+                    "type": "QueueableContext"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 30
+                    },
+                    "modifiers": [],
+                    "name": "req",
+                    "references": [],
+                    "type": "HttpRequest"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 33
+                    },
+                    "modifiers": [],
+                    "name": "http",
+                    "references": [],
+                    "type": "Http"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 34
+                    },
+                    "modifiers": [],
+                    "name": "res",
+                    "references": [],
+                    "type": "HttpResponse"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p2800000FEIDLAA5",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "InvocableMethod"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 6
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "postToSlack",
+            "parameters": [
+                {
+                    "name": "opportunityId",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "SlackOpportunityPublisher",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 3
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "slackURL",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "SlackOpportunityPublisher",
+        "references": [],
+        "type": "SlackOpportunityPublisher"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "opportunityId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "oppId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "opportunity",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "msg",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "body",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

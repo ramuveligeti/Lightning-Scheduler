@@ -1,0 +1,459 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000FEN0KAAX",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000FEN0KAAX",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 4
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getTabsSetDesc",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 12
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getIcons32",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 25
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getIcons16",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 37
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "test",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 47
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getIcon32Url",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 51
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getIcon16Url",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 57
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getObjectTypes",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 64
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getIcon32UrlByRecordId",
+            "parameters": [
+                {
+                    "name": "recordId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 80
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getIcon16UrlByRecordId",
+            "parameters": [
+                {
+                    "name": "recordId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "IconUtils",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 3
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "tabSetDesc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 11
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "icons32",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 24
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "icons16",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 56
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "objectTypes",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "IconUtils",
+        "references": [],
+        "type": "IconUtils"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "tsr",
+            "references": [],
+            "type": "DescribeTabSetResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "tab",
+            "references": [],
+            "type": "DescribeTabResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "tsr",
+            "references": [],
+            "type": "DescribeTabSetResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "tab",
+            "references": [],
+            "type": "DescribeTabResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "tsr",
+            "references": [],
+            "type": "DescribeTabSetResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "tab",
+            "references": [],
+            "type": "DescribeTabResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "ic",
+            "references": [],
+            "type": "DescribeIconResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "recordId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "objectAPIName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "keyPrefix",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "prefix",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "recordId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "objectAPIName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "keyPrefix",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "prefix",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

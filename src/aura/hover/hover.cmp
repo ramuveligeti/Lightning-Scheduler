@@ -1,0 +1,50 @@
+<aura:component implements="force:appHostable" controller="hoverController">
+    <aura:attribute name="rId" type="String" required="true" default=""/>
+    <aura:attribute name="objectData" type="List" />
+    <aura:attribute name="FieldsNameMap" type="Object[]" default="[]"/>
+    <aura:attribute name="iconUrl" type="String" />
+    <!--aura:handler name="init" action="{!c.init}" value="{!this}" /-->
+    <aura:attribute name="name" type="String" />
+    
+    <div class="slds-popover slds-popover--panel" style="z-index-popup:5000;" role="dialog">
+        <div class="slds-popover__header">
+            <aura:iteration items="{!v.FieldsNameMap}" var="rec">
+                <aura:if isTrue="{!rec.api == 'name' || rec.api == 'casenumber'}">
+                    <div class="slds-media slds-m-bottom--small slds-media--center">
+                        <div class="slds-media__figure">
+                            <span class="slds-icon_container slds-icon-standard-account">
+                                <lightning:icon iconName="{!v.iconUrl}" size="x-small" />
+                                <span class="slds-assistive-text">{!rec.value}</span>
+                            </span>
+                        </div>
+                        <div class="slds-media__body slds-truncate">
+                            <p class="slds-text-heading--medium slds-hyphenate  slds-truncate"><a href="javascript:void(0);">{!rec.value}</a></p>
+                        </div>
+                    </div>
+                </aura:if>
+            </aura:iteration>
+            <div class="slds-grid slds-wrap slds-grid--pull-padded">
+                <aura:iteration items="{!v.FieldsNameMap}" var="rec">
+                    <aura:if isTrue="{!and(rec.api != 'name', rec.api != 'casenumber')}">
+                        <div class="slds-p-horizontal--small slds-size--1-of-2 slds-p-bottom--x-small">
+                            <dl>
+                                <dt>
+                                    <p class="slds-text-title--caps slds-truncate" title="{!rec.label}">{!rec.label}</p>
+                                </dt>
+                                <aura:if isTrue="{!rec.type == 'REFERENCE'}">
+                                    <dd><a class="slds-truncate" href="{! rec.value!='' ? rec.value : '/one/one.app#/sObject/' + rec.value + '/view'}" target="_blank">{!rec.refName} </a></dd>
+                                    <aura:set attribute="else">
+                                        <dd><p class="slds-truncate" title="{!rec.value}">{!rec.value}</p></dd>
+                                    </aura:set>
+                                </aura:if>
+                            </dl>
+                        </div>
+                        <aura:set attribute="else">
+                            <span></span>
+                        </aura:set>
+                    </aura:if>
+                </aura:iteration>
+            </div>
+        </div>
+    </div>
+</aura:component>

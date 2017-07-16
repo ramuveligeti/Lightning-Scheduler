@@ -1,0 +1,8 @@
+<!--simpleTab.cmp-->
+<aura:component implements="force:appHostable">
+
+    <!-- Simple tab content -->
+
+    <h1>Lightning Component Tab</h1>
+
+</aura:component>

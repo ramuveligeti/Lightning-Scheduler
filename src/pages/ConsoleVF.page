@@ -1,0 +1,23 @@
+<apex:page showHeader="false" sidebar="false">
+<apex:includeLightning />
+<div id="lightning"> Hello world VF ..!!! </div>
+<script>
+
+    $Lightning.use("c:myEventApp", function() {
+        $Lightning.createComponent("c:myComponent", {}, "lightning", function(){
+            $A.eventService.addHandler({ "event": "e.c:myEvent", "handler" : visualForceFunction});
+
+        });
+    }); 
+
+</script>
+
+<script>
+
+var visualForceFunction = function(event){
+        var myEventData = event.getParam("data");
+        console.log(myEventData);
+    };
+
+</script>
+</apex:page>
