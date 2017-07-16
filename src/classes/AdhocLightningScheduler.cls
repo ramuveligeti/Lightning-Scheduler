@@ -64,8 +64,15 @@ public class AdhocLightningScheduler{
         for(Schema.SObjectField s1:fieldMap.values()){
             List<String> l = new List<String>();
             string field = String.valueOf(s1);
+            //get label
             l.add(String.valueOf(s1.getDescribe().getName()));
-            l.add(field+'=='+String.valueOf(fieldMap.get(field).getDescribe().getType()));
+            
+            String dataType = String.valueOf(fieldMap.get(field).getDescribe().getType());
+            String objName = String.valueOf(fieldMap.get(field).getDescribe().getReferenceTo()[0].getDescribe().getName());
+            //get API Name +'=='+ data type+'~:~'+ Reference field object Name
+            if(dataType == 'REFERENCE'){l.add(field+'=='+dataType+'~:~'+objName);}
+            //get API Name +'=='+ data type
+            else l.add(field+'=='+dataType);
             options.add(l);
             //objFields.add(new SelectOption(field+'=='+String.valueOf(fieldMap.get(field).getDescribe().getType()),String.valueOf(s1.getDescribe().getName())));
         }

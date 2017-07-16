@@ -7,7 +7,11 @@
             console.log('i1=='+i);
             while (i>-1) {
                 console.log('i=='+i+'=='+message[i])
-                if((filter['selectedField'] != '' && message[i] == 'Field') || (filter['selectedOperator'] != '' && message[i] == 'Operator') || (filter['selectedValue'] != '' && message[i] == 'Value')){
+                //if(filter['dataType'] == 'DATE'){filter['selectedValue'] == filter['filterDate'];}
+                if( (filter['selectedField'] != '' && message[i] == 'Field') || 
+                    (filter['selectedOperator'] != '' && message[i] == 'Operator') || 
+                    ((filter['filterDate'] != '' || filter['selectedValue'] != '') && message[i] == 'Value')
+                ){
                     console.log('msg=='+message);
                     message.splice(i, 1);
                 }

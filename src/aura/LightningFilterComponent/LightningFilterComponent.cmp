@@ -84,9 +84,6 @@
             </div>
         </td>
         <td style="width:20%">
-            <aura:if isTrue="{!v.fw.dataType == 'REFERENCE'}">
-                <lightning:buttonIcon iconName="utility:chevrondown" size="medium" alternativeText="Indicates approval" onclick="{!c.addSubFields}"/>
-            </aura:if>
             <lightning:buttonIcon iconName="utility:close" size="medium" alternativeText="Indicates approval" onclick="{!c.removeLine}"/>
             <aura:if isTrue="{!v.fw.dispAdd}">
                 <lightning:buttonIcon iconName="utility:add" size="medium" alternativeText="Indicates approval" onclick="{!c.addWrapper}"/>

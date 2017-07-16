@@ -15,6 +15,7 @@
         var action = component.get("c.getObjFields");
         var actionId = event.getParam("filWrap");
         var act = false;
+        //checking if this function called from getRelatedFields function for 'Update Releated Records' option
         if(!$A.util.isEmpty(actionId)){act=true;}
         console.log('act123=='+act);
         if(act){action.setParams({"so":component.get("v.selectedActObj")});}
@@ -40,6 +41,7 @@
                     }
                 }
                 
+                //if 'update_rel'
                 if(act){component.set("v.relFields", options);}
                 else{
                     component.set("v.fields", options);
@@ -180,6 +182,7 @@
         var so = filter['selectedObject'];
         var act = filter['triggerAction'];
         var fld = filter['selectedField'].split('==')[0];
+        console.log('so=='+so+'=='+fld+'=='+filter['selectedRefPar']);
         action.setParams({
             "so":so,
             "fld":fld
